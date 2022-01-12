@@ -20,7 +20,7 @@ should be set for particular regions of the tree.
 """
 import sys
 import ipaddress
-from collections import namedtuple
+from collections import namedtuple, Counter
 
 
 def Parse(entries: list):
